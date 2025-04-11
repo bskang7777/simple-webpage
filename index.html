@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹 프로젝트 홈페이지</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">웹 프로젝트</div>
+            <ul class="nav-links">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#contact">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>환영합니다!</h1>
+            <p>이 웹사이트는 GitHub Pages를 이용해 만들어진 프로젝트 페이지입니다.</p>
+            <button class="cta-button">자세히 알아보기</button>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>프로젝트 소개</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>이 프로젝트는 GitHub를 활용한 웹페이지 제작 예시입니다. 간단한 HTML, CSS, JavaScript를 사용하여 만들어졌습니다.</p>
+                    <p>GitHub Pages를 통해 무료로 호스팅되고 있으며, 누구나 쉽게 비슷한 페이지를 만들 수 있습니다.</p>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">이미지 영역</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>서비스</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>웹 개발</h3>
+                    <p>HTML, CSS, JavaScript를 활용한 웹 사이트 개발 서비스를 제공합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>웹 디자인</h3>
+                    <p>사용자 경험을 고려한 현대적이고 반응형 웹 디자인을 제공합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>모바일 최적화</h3>
+                    <p>다양한 디바이스에서 최적의 경험을 제공하는 반응형 웹을 개발합니다.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>SEO 최적화</h3>
+                    <p>검색 엔진에서 더 잘 노출될 수 있도록 웹사이트를 최적화합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>문의하기</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">메시지</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">보내기</button>
+                </form>
+                <div class="contact-info">
+                    <h3>연락처 정보</h3>
+                    <p>📧 이메일: example@domain.com</p>
+                    <p>📱 전화번호: 010-1234-5678</p>
+                    <p>🏢 주소: 서울시 강남구 테헤란로 123</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    &copy; 2025 웹 프로젝트. All rights reserved.
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
